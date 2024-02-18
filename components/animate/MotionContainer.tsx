@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Box, { BoxProps } from "@mui/material/Box";
-import { varWrapBoth } from "./variants/Wrap";
+ import { varWrapBoth } from "./variants/Wrap";
 
 interface MotionContainerProps extends BoxProps {
   initial?: boolean | string;
