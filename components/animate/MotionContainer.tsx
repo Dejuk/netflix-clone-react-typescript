@@ -8,9 +8,9 @@ interface MotionContainerProps extends BoxProps {
 }
 
 export default function MotionContainer({
-  open,
+  open, 
   children,
-  ...other
+  ...others
 }: MotionContainerProps) {
   return (
     <Box
