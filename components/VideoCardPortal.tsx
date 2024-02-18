@@ -105,12 +105,16 @@ export default function VideoCardModal({
             </NetflixIconButton>
             <NetflixIconButton>
               <AddIcon />
+              
             </NetflixIconButton>
             <NetflixIconButton>
+              
               <ThumbUpOffAltIcon />
+              
             </NetflixIconButton>
             <div style={{ flexGrow: 1 }} />
             <NetflixIconButton
+              
               onClick={() => {
                 setDetailType({ mediaType: MEDIA_TYPE.Movie, id: video.id });
               }}
