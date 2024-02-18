@@ -26,8 +26,6 @@ interface VideoCardModalProps {
   video: Movie;
   anchorElement: HTMLElement;
 }
-
-
 export default function VideoCardModal({
   video,
   anchorElement,
@@ -140,7 +138,9 @@ export default function VideoCardModal({
                 .map((genre) => genre.name)}
             />
           )}
+          
         </Stack>
+        
       </CardContent>
     </Card>
   );
