@@ -27,12 +27,13 @@ interface VideoCardModalProps {
   anchorElement: HTMLElement;
 }
 
+
 export default function VideoCardModal({
   video,
   anchorElement,
 }: VideoCardModalProps) {
   const navigate = useNavigate();
-
+  
   const { data: configuration } = useGetConfigurationQuery(undefined);
   const { data: genres } = useGetGenresQuery(MEDIA_TYPE.Movie);
   const setPortal = usePortal();
